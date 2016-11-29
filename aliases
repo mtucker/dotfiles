@@ -22,5 +22,8 @@ alias pmsa="python manage.py startapp"
 alias pmsp="python manage.py startproject"
 alias pmsdb="python manage.py syncdb"
 
+# Navigation
+alias pldn="cd ~/src/paladin"
+
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
