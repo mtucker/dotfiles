@@ -15,5 +15,12 @@ alias s="rspec"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# Django
+alias pm="python manage.py"
+alias pmrs="python manage.py runserver"
+alias pmsa="python manage.py startapp"
+alias pmsp="python manage.py startproject"
+alias pmsdb="python manage.py syncdb"
+
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
