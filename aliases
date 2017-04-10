@@ -21,9 +21,10 @@ alias pmrs="python manage.py runserver"
 alias pmsa="python manage.py startapp"
 alias pmsp="python manage.py startproject"
 alias pmsdb="python manage.py syncdb"
+alias pmt="python manage.py test"
 
 # Navigation
-alias pldn="cd ~/src/paladin"
+alias pldn="cd ~/src/pldn/paladin"
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
