@@ -13,12 +13,12 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/mtucker/.gitignore_global
   autocrlf = input
 [merge]
   ff = only
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [fetch]
   prune = true
 [rebase]
@@ -26,8 +26,8 @@
 [include]
   path = ~/.gitconfig.local
 [user]
-	name = Matt Tucker
-	email = matt.d.tucker@gmail.com
+	name = Matthew Tucker
+	email = matt@joinpaladin.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
