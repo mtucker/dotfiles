@@ -1,15 +1,6 @@
-# On cd...
-function chpwd {
-  # Activate virtual env
-  activate_venv
-}
+# Pyenv path
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PYENV_ROOT/shims:$PATH"
 
-activate_venv() {
-  # If the directory contains a `.venv` subdirectory, activate the venv
-  if [[ -a .venv ]]; then
-    source .venv/bin/activate
-  fi
-}
-
-# Active a venv on new session (if it exists)
-activate_venv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
