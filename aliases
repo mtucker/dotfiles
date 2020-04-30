@@ -24,7 +24,7 @@ alias pmsdb="python manage.py syncdb"
 alias pmt="python manage.py test"
 
 # Navigation
-alias pldn="cd ~/src/pldn/paladin"
+alias pldn="cd ~/src/paladin"
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
